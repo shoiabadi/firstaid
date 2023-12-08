@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Aid Guide  - DGFASLI </title>
+
+    <header>
+        <h1>First Aid Guide  - DGFASLI</h1>
+    </header>
+
+    <style>
+        #slideshow-container {
+            max-width: 800px;
+            position:relative;
+            margin: auto;
+            overflow:hidden;
+        }
+
+        
+        .slide {
+            width: 100%;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff; /* Optional background color for each slide */
+        }
+        
+        .slideshow-inner {
+            display: flex;
+            animation: slide 6s linear infinite; /* Change the duration for a faster or slower slide */
+        }
+
+        .slide {
+            width: 100%;
+            flex-shrink: 0;
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0%);
+            }
+
+            10% {
+                transform: translateX(0%);
+            }
+
+            20% {
+                transform: translateX(0%);
+            }
+
+            30% {
+                transform: translateX(-100%);
+            }
+
+            40% {
+                transform: translateX(-100%);
+            }
+
+            50% {
+                transform: translateX(-200%);
+            }
+
+            60% {
+                transform: translateX(-200%);
+            }
+            70% {
+                transform: translateX(-200%);
+            }
+            80% {
+                transform: translateX(-200%);
+            }
+            90% {
+                transform: translateX(-200%);
+            }
+            100% {
+                transform: translateX(-400%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="slideshow-container">
+    <div class="slideshow-inner">
+        <div class="slide">
+            <img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Quote 2.webp" alt="Image 3">
+        </div>
+        <div class="slide">
+            <img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Quote 2.webp" alt="Image 3">
+        </div>
+                <div class="slide">
+            <img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Quote 2.webp" alt="Image 3">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+
+            color: #e10000;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #9cf99e;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #040000;
+            cursor: pointer;
+        }
+
+        p {
+            color: #000000;
+        }
+
+        .content {
+            display: none;
+            margin-top: 5px;
+        }
+    </style>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        h2 {
+            background-color: #107521;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .content {
+            padding: 10px;
+            display: none;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.6px;
+        }
+
+        h1 {
+            background-color: #3caf06;
+            color: #ffffff;
+            margin: 0.1px;
+            cursor: pointer;
+            font-size: 50px;
+        }
+
+        .content {
+            padding: 10px;
+            display: none;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+
+        <section>
+            <h2 onclick="toggleContent('first-aid')">FIRST AID</h2>
+            <div id="first-aid" class="content">
+                <img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\image.jpg" alt="First Aid Image" style="width:100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+                <p>
+                    First-aid is the immediate care given to the victim
+                    of an accident or sudden illness before the arrival
+                    of a qualified expert. The purpose of First-aid is to
+                    preserve life, assist recovery, prevent aggravation
+                    and minimize complications at a later date with the
+                    help of such material as may be available.
+                </p>
+            </div>
+        </section>
+        
+        
+
+        <section>
+            <h2 onclick="toggleContent('artificial-respiration')">ARTIFICIAL RESPIRATION</h2>
+            <div id="artificial-respiration" class="content">
+                <img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\CPR.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+
+                <video id="first-aid-video" controls style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+                    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\CPR - Animated.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+<p>
+1. Mouth to Mouth: This is appropriate and
+effective technique for emergency artificial
+respiration. <br><br>
+2. Keep the head slightly backward and open
+the jaw.<br><br>
+3. Seal the casualty’s nose to prevent escape
+of air by pinching with thumb and index
+finger.<br><br>
+4. Take a deep breath, open your mouth
+widely, place it over the victim’s mouth and
+make a tight seal.<br><br>
+5. Quickly blow the full breath into the mouth of
+victim.<br><br>
+6. Remove your mouth from the victim and
+allow him to exhale passively.<br><br>
+7. Repeat the procedure 12 to 15 times per
+minute, till medical aid is arranged.<br><br>
+8. Arrange immediate medical aid.<br><br>
+
+<strong><span style="background-color: yellow;">CAUTIONARY NOTE:</span></strong><br><br>
+
+
+1. Do not give mouth to mouth resuscitation
+during CPR in the presence of toxins such
+as cyanide, hydrogen sulphide, corrosives
+and organo-phosphates. Ventilate the
+casualty by using a face mask or
+bag/valve/mask assembly.<br><br>
+2. Avoid mouth to mouth resuscitation if there
+is possibility of transmission of infection
+between the victim and the rescuer, such as
+HIV, Hepatitis-B, Tuberculosis, Shigellosis,
+Meningococcal meningitis, Herpes simplex
+virus and Salmonella. Use an interpositional
+airway device which must function effectively
+in both its resuscitation and protective roles,
+and be immediately available at all. <br><br>
+
+</p>
+</div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('CONTROL OF BLEEDING')">CONTROL OF BLEEDING</h2>
+            <div id="CONTROL OF BLEEDING" class="content">
+                <img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\CONTROL OF BLEEDING.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+                <video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+                    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Bleeding first aid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>
+                    1. Apply direct pressure by thumb or finger.<br><br>
+                    2. Apply dressing – gauze pad and bandage.<br><br>
+                    3. Apply indirect pressure on pressure points.<br><br>
+                    4. Apply tourniquet.<br><br>
+                    5. Remove the injured to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('FRACTURES')">FRACTURES</h2>
+            <div id="FRACTURES" class="content">
+                <p>
+                    <img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Fracture.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+                    <video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+                        <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Fracture first aid.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    
+1. Signs of Fracture : Pain, Tenderness, Swelling,
+Loss of Power, Deformity. <br><br>
+2. Do not move the injured unless the life is
+endangered from other causes. <br><br>
+3. Deal with the haemorrhage and breathing
+difficulties. <br><br>
+4. Immobilise the fracture by using
+suitable splints.<br><br>
+4. Immobilisation should include one joint
+above and one joint below the fracture.<br><br>
+5. Remove the injured to the hospital.<br><br>
+                
+                </p>
+            </div>
+        </section>        <section>
+            <h2 onclick="toggleContent('BURNS')">BURNS</h2>
+            <div id="BURNS" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Burns.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Burns first aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+                <p>1. Pour running cold water on the affected part. <br><br>
+                    2. Do not apply ointments or oils or any other substance.<br><br>
+                    3. Cover the wound with sterilized cloth.<br><br>
+                    4. Give artificial respiration, if needed.<br><br>
+                    5. Prevent shock.<br><br>
+                    6. Arrange immediate medical aid.<br><br>
+                </p>
+            </div>
+        </section>
+       
+       
+        <section>
+            <h2 onclick="toggleContent('SHOCK')">SHOCK</h2>
+            <div id="SHOCK" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Shock.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\First Aid - Shock.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+                <p>1. Lay the patient on his back.<br><br>
+
+                    2. Stop bleeding, if any.<br><br>
+                    
+                    3. Relieve pain by supporting the injured part.<br><br>
+                    
+                    4. Keep the patient comfortable.<br><br>
+                    
+                    5. Do not cause sweating.<br><br>
+                    
+                    6. Fluids may be given by mouth in small amounts, if the patient is conscious.<br><br>
+                    
+                    7. Reassure the patient.<br><br>
+                    
+                    8. Arrange immediate medical aid.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('WOUNDS')">WOUNDS</h2>
+            <div id="WOUNDS" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\wounds.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Wounds first aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p>
+                    1. Stop the bleeding, if any.<br><br>
+                    2. Avoid touching the wounds.<br><br>
+                    3. Cover the wound with sterilized cloth.<br><br>
+                    4. Arrange immediate medical aid.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('EYE INJURIES')">EYE INJURIES</h2>
+            <div id="EYE INJURIES" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Eye first aid.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+
+                <p>1. Removal of foreign body should not be
+                    attempted.<br><br>
+                    2. Do not apply oil or ointment.<br><br>
+                    3. Apply sterile pad and loose bandage.<br><br>
+                    4. Send the patient to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('ABDOMINAL WOUNDS')">ABDOMINAL WOUNDS</h2>
+            <div id="ABDOMINAL WOUNDS" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Abdominal wound.png" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+
+
+                <p>1. No time should be lost in sending the patient
+                    to the hospital.<br><br>
+                    2. Keep the patient flat on his back.<br><br>
+                    3. Give nothing by mouth.<br><br>
+                    4. Maintain warmth.<br><br>
+                    5. If intestines protrude from the wound, do not
+                    attempt to touch or replace them.<br><br>
+                    6. Apply sterile dressing and binder on the
+                    wound.<br><br>
+                    7. Provide immediate transportation to the
+                    hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('BACKBONE FRACTURE')">BACKBONE FRACTURE</h2>
+            <div id="BACKBONE FRACTURE" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Backbone fracture.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\BACKBONE FRACTURE - First aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p>1. Fracture of backbone may lead to paralysis
+                    of limbs. Hence, victim should be handled
+                    with great care.<br><br>
+                    2. Transport on a rigid frame, which may be
+                    improvised by using available board.<br><br>
+                    3. The rigid frame is to be placed on a stretcher
+                    for transportation.<br><br>
+                    4. Immediate hospitalization is needed.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('HEAT STROKE')">HEAT STROKE</h2>
+            <div id="HEAT STROKE" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Heat strokes.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Heat attack - first aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p>1. Make the patient lie down.<br><br>
+                    2. Remove all clothings except the underwear.<br><br>
+                    3. Keep the patient under the fan.<br><br>
+                    4. Pour cold water on the body repeatedly.<br><br>
+                    5. Wash the head thoroughly with cold water
+                    and dry it with towel.<br><br>
+                    6. Record body temperature falls up to 38ºC
+                    stop pouring water.<br><br>
+                    7. Give plenty of cold water with a pinch of
+                    common salt in each glass of water to drink.<br><br>
+                    8. Send the patient to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('BLEEDING NOSE')">BLEEDING NOSE</h2>
+            <div id="BLEEDING NOSE" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Nose bleeding.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Nose bleeding - first aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p> 1. Make the patient sit on a Chair with head
+                    downward.<br><br>
+                    2. Pinch the nose with fingers and thumb.<br><br>
+                    3. Apply ice or cold compression.<br><br>
+                    4. Do not plug the nostrils.<br><br>
+                    5. Do not put water or any medicine through
+                    the nostrils.<br><br>
+                    6. Send for medical aid immediately.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('FOREIGN BODY IN THE NOSE')">FOREIGN BODY IN THE NOSE</h2>
+            <div id="FOREIGN BODY IN THE NOSE" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Foreign partical in nose.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+               <p>
+1. Do not try to remove the solid object.<br><br>
+2. Ask the patient to breathe through mouth.<br><br>
+3. Send the patient to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('BLEEDING EAR')">BLEEDING EAR</h2>
+            <div id="BLEEDING EAR" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Bleeding ear.png" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+
+                <p>1. Lay the patient with the head slightly raised.<br><br>
+                    2. Incline the head to the affected side and
+                    apply a dry dressing over the ear with loose
+                    bandage.<br><br>
+                    3. Do not plug the ear.<br><br>
+                    4. Apply pressure in front of the ear.<br><br>
+                    5. Send for medical aid immediately.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('FOREIGN BODY IN THE EAR')">FOREIGN BODY IN THE EAR</h2>
+            <div id="FOREIGN BODY IN THE EAR" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Ear.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+
+
+                <p>1. Solid – Do not try to remove, scratch or
+                    probe it.<br><br>
+                    2. Insects – Put a few drops of water in the ear
+                    and turn the head so that affected ear points
+                    upwards.<br><br>
+                    3. Keep the head in that position for 5 minutes,
+                    then turn the head downwards so that the
+                    water flows out.<br><br>
+                    4. Arrange immediate medical aid.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('SNAKE BITE')">SNAKE BITE</h2>
+            <div id="SNAKE BITE" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Snake bit.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\First Aid for Snake Bite.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p>1. Reassure the patient. <br><br>
+                    2. Do not allow the person to run or walk.<br><br>
+                    3. Apply a ligature above the wound (in
+                    between the heart and the wound) if the bite
+                    is in the leg or hand.<br><br>
+                    4. Wash the wound with potassium
+                    permanganate solution or with soap and
+                    water.<br><br>
+                    5. Allow free bleeding.<br><br>
+                    6. Never suck the blood from the wound.<br><br>
+                    7. Treat for shock.<br><br>
+                    8. Arrange immediate hospitalization, by
+                    transporting the patient in a lying down
+                    position.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('DOG BITE')">DOG BITE</h2>
+            <div id="DOG BITE" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Dog bit.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+
+
+                <p>1. Clean the wound immediately with water.<br><br>
+                    2. Then wash with antiseptic soap and water.<br><br>
+                    3. Do not try to stop bleeding.<br><br>
+                    4. Do not cover the wound.<br><br>
+                    5. Send the patient to hospital for treatment.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('INSECT BITE')">INSECT BITE</h2>
+            <div id="INSECT BITE" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Insect bit.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+
+
+                <p> 1. The sting bite should be pulled out.<br><br>
+                    2. Apply cold compression.<br><br>
+                    3. Apply vinegar diluted with water.<br><br>
+                    4. Soda-bicarbonate paste should be applied at
+                    the site.<br><br>
+                    5. Prevent shock.<br><br>
+                    6. Send for medial aid immediately.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('CHEMICAL BURNS')">CHEMICAL BURNS</h2>
+            <div id="CHEMICAL BURNS" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Chemical Burns.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Chemical Burn First Aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p>1. Immediate washing of the eye with clean
+                    water at least for fifteen minute or longer.<br><br>
+                    2. Apply sterile dressing over the eye.<br><br>
+                    3. Neutralising agents or ointments should not
+                    be used.<br><br>
+                    4. Send the patient to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('SUFFOCATION')">SUFFOCATION</h2>
+            <div id="SUFFOCATION" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Heat strokes.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Heat stroke first aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p>1. Remove the patient from the source.<br><br>
+                    2. Clean the airways.<br><br>
+                    3. Restore breathing by artificial respiration.<br><br>
+                    4. Send the patient to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('ELECTRIC SHOCK')">ELECTRIC SHOCK</h2>
+            <div id="ELECTRIC SHOCK" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Electrical Shock.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Electric Shock - first aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p> 1. Do not touch the casualty while he is still in
+                    contact with electricity.<br><br>
+                    2. Switch off the current at once.<br><br>
+                    3. Do not attempt first aid until the contact has
+                    been broken.<br><br>
+                    4. Make the air passage clear and clean.<br><br>
+                    5. Restore breathing Artificial respiration and
+                    external cardiac massage, if needed.<br><br>
+                    6.Call for immediate medical aid.<br><br>
+                    7. Send the patient to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('UNCONSCIOUSNESS')">UNCONSCIOUSNESS</h2>
+            <div id="UNCONSCIOUSNESS" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\Unconsious first aid.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\First Aid - Unconsciousness.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p>1. Make the patient lie down on his belly with
+                    head turned to one side.<br><br>
+                    2. Check breathing and pulse.<br><br>
+                    3. Loosen tight clothings.<br><br>
+                    4. Clean the air-way.<br><br>
+                    5. Give artificial respiration and external
+                    Cardiac Massage, if needed.<br><br>
+                    6. Transport the patient to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2 onclick="toggleContent('POISONING')">POISONING</h2>
+            <div id="POISONING" class="content">
+
+<img src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Images\POISONING.jpg" alt="First Aid Image" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+<video id="first-aid-video" controls style="max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); opacity: 0.9;">
+    <source src="C:\Users\syedshoiab.hadi\Desktop\First aid - HTML\Videos\Poisoning First Aid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+                <p> 1. Find the nature of the poison.<br><br>
+                    2. Give universal antidote mixture as given
+                    below to drink:
+                    Charcoal powder - 2 table spoons
+                    Coffee powder - 2 table spoons
+                    Chalk powder - 1 table spoon
+                    Add it to a glass of warm water and mix well.<br><br>
+                    3. Send the patient immediately to the hospital.<br><br>
+                </p>
+            </div>
+        </section>
+
+
+
+        <!-- Add more sections for each content -->
+
+    </main>
+
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
